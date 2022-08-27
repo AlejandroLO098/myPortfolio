@@ -4,6 +4,7 @@ import Navbar from "react-bootstrap/Navbar";
 import { useEffect, useState } from "react";
 import linkedin from "../assets/img/linkedin.svg";
 import github from "../assets/img/github.svg";
+import fb from "../assets/img/fb.svg";
 
 import { BrowserRouter as Router } from "react-router-dom";
 
@@ -48,17 +49,6 @@ export const NavBar = () => {
                 Home
               </Nav.Link>
               <Nav.Link
-                href="#projects"
-                className={
-                  activelink === "projects"
-                    ? "active navbar-link"
-                    : "navbar-link"
-                }
-                onClick={() => onUpdateActiveLink("projects")}
-              >
-                Projects
-              </Nav.Link>
-              <Nav.Link
                 href="#technologies"
                 className={
                   activelink === "technologies"
@@ -70,13 +60,25 @@ export const NavBar = () => {
                 Technologies
               </Nav.Link>
               <Nav.Link
-                href="#services"
+                href="#projects"
                 className={
-                  activelink === "services"
+                  activelink === "projects"
                     ? "active navbar-link"
                     : "navbar-link"
                 }
-                onClick={() => onUpdateActiveLink("services")}
+                onClick={() => onUpdateActiveLink("projects")}
+              >
+                Projects
+              </Nav.Link>
+
+              <Nav.Link
+                href="#contact"
+                className={
+                  activelink === "contact"
+                    ? "active navbar-link"
+                    : "navbar-link"
+                }
+                onClick={() => onUpdateActiveLink("contact")}
               >
                 Contact
               </Nav.Link>
@@ -87,10 +89,13 @@ export const NavBar = () => {
                   href="https://www.linkedin.com/in/alejandro-lopez001/"
                   target="_blank"
                 >
-                  <img src={linkedin} alt="" />
+                  <img src={linkedin} alt="linkedin logo" />
                 </a>
                 <a href="https://github.com/AlejandroLO098" target="_blank">
-                  <img src={github} alt="" />
+                  <img src={github} alt="github logo" />
+                </a>
+                <a href="https://github.com/AlejandroLO098" target="_blank">
+                  <img src={fb} alt="facebook logo" />
                 </a>
               </div>
             </span>

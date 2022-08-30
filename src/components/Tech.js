@@ -5,7 +5,7 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import java from "../assets/img/java4.svg";
 import react from "../assets/img/react.png";
-import javascript from "../assets/img/js.png";
+import javascript from "../assets/img/javascript.png";
 import html from "../assets/img/html.png";
 import css from "../assets/img/css.png";
 import aws from "../assets/img/aws.png";

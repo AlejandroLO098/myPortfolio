@@ -64,9 +64,10 @@ export const Home = () => {
               </span>
             </h1>
             <p>
-              Versatile full stack developer with experience in web development,
-              data engineering, and machine learning. Eager to leverage skills
-              in a new environment and grow as a developer.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.
             </p>
           </Col>
         </Row>

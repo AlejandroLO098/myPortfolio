@@ -87,7 +87,7 @@ export const Footer = () => {
         <section className="social-media">
           <div className="social-media-wrap">
             <a to="/" className="l-link">
-              Alegandro Lopez
+              Alejandro Lopez
             </a>
             <small className="web-rights">
               Alejandro Lopez &copy; {new Date().getFullYear()} All rights

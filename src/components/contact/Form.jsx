@@ -33,14 +33,14 @@ export const Form = () => {
     <section classname="contact" id="contact">
       <form ref={form} onSubmit={sendEmail} className="form">
         <div className="form__input">
-          <input type="text" placeholder="Name" name="user_name" />
+          <input required type="text" placeholder="Name" name="user_name" />
         </div>
         <div className="form__input">
-          <input type="email" placeholder="Email" name="user_email" />
+          <input required type="email" placeholder="Email" name="user_email" />
         </div>
 
         <div className="form__input">
-          <textarea placeholder="Message Me" name="message"></textarea>
+          <textarea required placeholder="Message Me" name="message"></textarea>
         </div>
 
         <button className="submit__btn" type="submit" value="send">

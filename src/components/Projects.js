@@ -8,6 +8,7 @@ import pro01 from "../assets/img/ecomv2.png";
 import pro02 from "../assets/img/ecomv1.png";
 import pro03 from "../assets/img/wikipedia2.png";
 import pro04 from "../assets/img/blue-marble.png";
+import pro05 from "../assets/img/bettermind.png";
 // import "animate.css";
 import TrackVisibility from "react-on-screen";
 
@@ -36,6 +37,12 @@ export const Projects = () => {
       description: "Hope Hacks website that advocates for planet wellness",
       imgurl: pro04,
       url: "https://hopehacks1.herokuapp.com",
+    },
+    {
+      title: "BetterMind",
+      description: "Code4Justice hackathon website",
+      imgurl: pro05,
+      url: "https://main.d1qbf8fylcqros.amplifyapp.com/",
     },
   ];
   const projects02 = [];
